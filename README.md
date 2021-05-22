@@ -8,10 +8,10 @@ Para compilarlo se debe ejecutar el comando
 en la consola.
 
 Al ejecutarlo se le debe pasar un parámetro que indique cuál algoritmo se desea utilizar entre las siguientes opciones:
-	- FB: Fuerza bruta
-	- BT: Backtracking
-	- BT-F: Backtracking solamente con poda por factibilidad.
-	- BT-O: Backtracking solamente con poda por optimalidad.
+ 	- FB: Fuerza bruta
+ 	- BT: Backtracking
+ 	- BT-F: Backtracking solamente con poda por factibilidad.
+ 	- BT-O: Backtracking solamente con poda por optimalidad.
 	- DP: Programación dinámica.
 
 Además se debe pasar la instancia por entrada estándar. Por ejemplo, para ejecutar backtracking solamente con podas por factibilidad en una instancia INST1.TXT se debe correr el siguiente comando:
