@@ -8,11 +8,11 @@ Para compilarlo se debe ejecutar el comando
 en la consola.
 
 Al ejecutarlo se le debe pasar un parámetro que indique cuál algoritmo se desea utilizar entre las siguientes opciones:
- 	- FB: Fuerza bruta
- 	- BT: Backtracking
- 	- BT-F: Backtracking solamente con poda por factibilidad.
- 	- BT-O: Backtracking solamente con poda por optimalidad.
-	- DP: Programación dinámica.
+- FB: Fuerza bruta
+- BT: Backtracking
+- BT-F: Backtracking solamente con poda por factibilidad.
+- BT-O: Backtracking solamente con poda por optimalidad.
+- DP: Programación dinámica.
 
 Además se debe pasar la instancia por entrada estándar. Por ejemplo, para ejecutar backtracking solamente con podas por factibilidad en una instancia INST1.TXT se debe correr el siguiente comando:
 	cat INST1.txt | ./jambo_tube BT-F
@@ -24,6 +24,6 @@ Una vez instalado Jupyter Lab, abrir una consola en la carpeta python y correr e
 	jupyter lab
 
 Allí, existen tres archivos:
-	- generar-instancias.ipynb: genera las instancias descriptas en el trabajo y las ubica en la carpeta python/instancias.
-	- experimentos.ipynb: corre los experimentos del trabajo y deja el resultado de todas las ejecuciones en un CSV en la carpeta python/resultados
-	- analysis.ipynb: toma los resultados de las ejecuciones y genera todos los gráficos correspondientes.
+ - generar-instancias.ipynb: genera las instancias descriptas en el trabajo y las ubica en la carpeta python/instancias.
+ - experimentos.ipynb: corre los experimentos del trabajo y deja el resultado de todas las ejecuciones en un CSV en la carpeta python/resultados
+ - analysis.ipynb: toma los resultados de las ejecuciones y genera todos los gráficos correspondientes.
