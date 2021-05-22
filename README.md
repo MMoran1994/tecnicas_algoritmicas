@@ -1,6 +1,8 @@
 # Trabajo práctico: Técnicas algorítmicas
 ## Objetivo
-Aplicar las técnicas algorítmicas de *Fuerza Bruta*, *Backtracking* y *Programción Dinámica* sobre un problema propuesto. Los detalles sobre el problema y las restricciones que se tienen que cumplir se encuentran en el archivo `enunciado.pdf`. 
+Aplicar las técnicas algorítmicas de *Fuerza Bruta*, *Backtracking* y *Programción Dinámica* sobre un problema propuesto. Los detalles sobre el problema y las restricciones que se tienen que cumplir se encuentran en el archivo `enunciado.pdf`. Como requerimiento del trabajo, se elaboró un informe (`informe.pdf`) en el que se realizá un análisis sobre los algoritmos propuestos y justificación de su complejidad, además de diversos experimentos para ilustrar sus comportamientos.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 El código que resuelve el problema del enunciado está en el archivo jambo_tube.cpp.
 Para compilarlo se debe ejecutar el comando 
