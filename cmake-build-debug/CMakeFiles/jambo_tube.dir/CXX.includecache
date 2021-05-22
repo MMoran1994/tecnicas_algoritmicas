@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/juancin/Desktop/algo3-tp1-v2.0/jambo_tube.cpp
+iostream
+-
+vector
+-
+algorithm
+-
+cstdio
+-
+cstdlib
+-
+chrono
+-
+set
+-
+map
+-
+limits.h
+-
+
