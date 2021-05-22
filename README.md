@@ -1,4 +1,8 @@
-El código que resuelve el problema del enunciado está en el archivo subsetsum.cpp.
+# Trabajo práctico: Técnicas algorítmicas
+## Objetivo
+Aplicar las técnicas algorítmicas de *Fuerza Bruta*, *Backtracking* y Programción Dinámica sobre un problema propuesto. Los detalles sobre el problema y las restricciones que se tienen que cumplir se encuentran en el archivo `enunciado.pdf`. 
+
+El código que resuelve el problema del enunciado está en el archivo jambo_tube.cpp.
 Para compilarlo se debe ejecutar el comando 
 	make
 en la consola.
@@ -11,7 +15,7 @@ Al ejecutarlo se le debe pasar un parámetro que indique cuál algoritmo se dese
 	- DP: Programación dinámica.
 
 Además se debe pasar la instancia por entrada estándar. Por ejemplo, para ejecutar backtracking solamente con podas por factibilidad en una instancia INST1.TXT se debe correr el siguiente comando:
-	cat INST1.txt | ./subsetsum BT-F
+	cat INST1.txt | ./jambo_tube BT-F
 La salida del programa es doble. Por la salida estándar se devuelve lo pedido por el enunciado. Por la STDERR se devuelve el tiempo de ejecución del algoritmo.
 
 La generación de instancias y corrida de experimentos de manera secuencia está programada en Python utilizando Jupyter Lab (https://jupyter.org/). Para ver los notebooks se debe instalar Jupyter Labs siguiendo las instrucciones en su web. Se recomienda seguir los pasos de instalación utilizando pip3.
